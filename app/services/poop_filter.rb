@@ -6,6 +6,6 @@ module PoopFilter
   module_function
 
   def filter(text)
-    text.gsub(/#{ Regexp.union(SHITTY_WORDS).source }/i, '💩')
+    text.gsub(/#{ Regexp.union(SHITTY_WORDS).source }/i, '****')
   end
 end
